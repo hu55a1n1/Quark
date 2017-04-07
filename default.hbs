@@ -71,5 +71,15 @@
         }
     </script>
 
+    {{! Show particles animation }}
+    <script type="text/javascript" src="{{asset "js/particles.js"}}"></script>
+    <script>
+        if(window.particles_config){
+            if ($("#particles-js")[0]){
+                particlesJS('particles-js',particles_config);
+            }
+        }
+    </script>
+
 </body>
 </html>

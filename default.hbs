@@ -71,13 +71,25 @@
         }
     </script>
 
-    {{! Show particles animation }}
+    {{! Particles animation }}
     <script type="text/javascript" src="{{asset "js/particles.js"}}"></script>
     <script>
         if(window.particles_config){
             if ($("#particles-js")[0]){
                 particlesJS('particles-js',particles_config);
             }
+        }
+    </script>
+
+    {{! Typing animation }}
+    <script type="text/javascript" src="{{asset "js/typed.js"}}"></script>
+    <script>
+        if(window.typed_config) {
+            $(function () {
+                var typed_element = $(".page-description");
+                typed_element.typed(typed_config);
+                $(".typed-cursor").hide();
+            });
         }
     </script>
 

@@ -170,4 +170,12 @@
 .no-cover .menu ul li.nav-current a {
     color: black;
     border-color: black;
+/* Particles */
+
+#particles-js {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
 }

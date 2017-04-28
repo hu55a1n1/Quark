@@ -54,7 +54,7 @@ var typed_config = {
 ```
 
 
-###### Background (particle.js) animation
+##### Background (particle.js) animation
 
 Create your own configuration [here](http://vincentgarreau.com/particles.js/).
 

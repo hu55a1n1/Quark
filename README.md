@@ -28,7 +28,7 @@ Quark incorporates a few (customizable) appearance tweaks while retaining the mi
 Use code injection (specifically the blog footer section) to customize theme appearance.
 
 
-##### Social networking links
+#### Social networking links
 
 ```javascript
 var social_link = {
@@ -41,7 +41,7 @@ var social_link = {
 ```
 
 
-##### Blog description (typed.js) animation
+#### Blog description (typed.js) animation
 
 Refer to [typed.js](https://github.com/mattboldt/typed.js) documentation.
 
@@ -56,7 +56,7 @@ var typed_config = {
 ```
 
 
-##### Background (particle.js) animation
+#### Background (particle.js) animation
 
 Create your own configuration [here](http://vincentgarreau.com/particles.js/).
 

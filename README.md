@@ -28,43 +28,43 @@ Quark incorporates a few (customizable) appearance tweaks while retaining the mi
 Use code injection (specifically the blog footer section) to customize theme appearance.
 
 
-#### Social networking links
+* #### Social networking links
 
-```javascript
-var social_link = {
-    'linkedin-square': 'https://om.linkedin.com/in/sufialhussaini',
-    'github-square': 'https://github.com/Sufi-Al-Hussaini',
-    'facebook-square': 'https://www.facebook.com/sufialhussaini',
-    'envelope-square': 'mailto:sufialhussaini@gmail.com',
-    'rss':'https://shoaib-ahmed.com/rss/'
-};
-```
-
-
-#### Blog description (typed.js) animation
-
-Refer to [typed.js](https://github.com/mattboldt/typed.js) documentation.
-
-```javascript
-var typed_config = {
-    strings: ["Software developer", "Tech freak"],
-    typeSpeed: 50,
-    startDelay: 500,
-    backDelay: 500,
-    loop: true
-};
-```
+    ```javascript
+    var social_link = {
+        'linkedin-square': 'https://om.linkedin.com/in/sufialhussaini',
+        'github-square': 'https://github.com/Sufi-Al-Hussaini',
+        'facebook-square': 'https://www.facebook.com/sufialhussaini',
+        'envelope-square': 'mailto:sufialhussaini@gmail.com',
+        'rss':'https://shoaib-ahmed.com/rss/'
+    };
+    ```
 
 
-#### Background (particle.js) animation
+* #### Blog description (typed.js) animation
 
-Create your own configuration [here](http://vincentgarreau.com/particles.js/).
+    Refer to [typed.js](https://github.com/mattboldt/typed.js) documentation.
 
-```javascript
-var particles_config = {
-    /* Paste your config here. Default config is in <assets>/js/particles.js */
-};
-```
+    ```javascript
+    var typed_config = {
+        strings: ["Software developer", "Tech freak"],
+        typeSpeed: 50,
+        startDelay: 500,
+        backDelay: 500,
+        loop: true
+    };
+    ```
+
+
+* #### Background (particle.js) animation
+
+    Create your own configuration [here](http://vincentgarreau.com/particles.js/).
+
+    ```javascript
+    var particles_config = {
+        /* Paste your config here. Default config is in <assets>/js/particles.js */
+    };
+    ```
 
 
 

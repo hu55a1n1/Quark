@@ -17,12 +17,6 @@ Quark incorporates a few (customizable) appearance tweaks while retaining the mi
 
 
 
-### Demo
-
-[My personal website](http://shoaib-ahmed.com) uses the Quark theme.
-
-
-
 ### Customizations
 
 Use code injection (specifically the blog footer section) to customize theme appearance.
